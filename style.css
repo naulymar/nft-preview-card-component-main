@@ -39,19 +39,19 @@ body{
     background-color: var(--cardBG);
 }
 
-.nft-icon-container{
+
+.nft-icon{
     width: 300px;
     margin: 10px;
     border-radius: 20px;
-    overflow: hidden;
-
-    /*
-    box-shadow: -.5em 0 25px var(--SoftBlue);*/
 }
 
-.nft-icon{
-    width: 100%;
+.nft-icon:hover{
+    background-image: url(./images/icon-view.svg);
+    background-position: initial;
+    cursor: pointer;
 }
+
 
 .text-container{
     width: 300px;
@@ -63,15 +63,18 @@ h1{
     font-size: 22px;
     margin-bottom: 10px;
     color: var(--White);
+    font-weight: 550;
 }
 
 p{
-    font-size: 18px;
+    font-size: 15px;
     color: var(--SoftBlue);  
 }
 
 .desc{
-    margin: 25px 0;
+    font-size: 18px;
+    margin: 20px 0;
+    font-weight: 100;
 }
 
 .det{
