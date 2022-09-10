@@ -47,11 +47,19 @@ body{
 }
 
 .nft-icon:hover{
-    background-image: url(./images/icon-view.svg);
-    background-position: initial;
     cursor: pointer;
+    filter: opacity(0.5) brightness(5) grayscale(0.5);
 }
 
+.nft-icon-active{
+    opacity: 0;
+}
+
+.nft-icon:hover .nft-icon-active{
+    display: block;
+    width: 50px;
+    opacity: 1;
+}
 
 .text-container{
     width: 300px;
